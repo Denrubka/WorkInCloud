@@ -957,7 +957,7 @@ Copyright (c) 2014 Daniel Eden
 #fancybox-loading,
 .fancybox-prev span,
 .fancybox-next span {
-	background-image: url('../_img/fancybox_sprite.png');
+	background-image: url('../img2/fancybox_sprite.png');
 }
 
 #fancybox-loading {
@@ -975,7 +975,7 @@ Copyright (c) 2014 Daniel Eden
 #fancybox-loading div {
 	width: 44px;
 	height: 44px;
-	background: url('../_img/fancybox_loading.gif') center center no-repeat;
+	background: url('../img2/fancybox_loading.gif') center center no-repeat;
 }
 
 .fancybox-close {
@@ -986,7 +986,7 @@ Copyright (c) 2014 Daniel Eden
 	height: 100px;
 	cursor: pointer;
 	z-index: 8040;
-	background: #f3f3f4 url(../_img/ico_close.png) no-repeat 50% 50%;
+	background: #f3f3f4 url(../img2/ico_close.png) no-repeat 50% 50%;
 	-webkit-transition: 0.4s;
 	-moz-transition: 0.4s;
 	transition: 0.4s;
@@ -994,7 +994,7 @@ Copyright (c) 2014 Daniel Eden
 
 .fancybox-close:hover {
 	background-color: #a82f28;
-	background-image: url(../_img/ico_close-white-2.png);
+	background-image: url(../img2/ico_close-white-2.png);
 }
 
 .fancybox-nav {
@@ -1257,7 +1257,7 @@ Copyright (c) 2014 Daniel Eden
 /* Slider */
 
 .slick-loading .slick-list {
-	background: #fff url('../_img/ajax-loader.gif') center center no-repeat;
+	background: #fff url('../img2/ajax-loader.gif') center center no-repeat;
 }
 
 /* Arrows */
@@ -1434,7 +1434,7 @@ Copyright (c) 2014 Daniel Eden
 
 .header.fixed .container:after {
 	content: "";
-	background: url(../_img/bg_promo.jpg) no-repeat 0 0;
+	background: url(../img2/bg_promo.jpg) no-repeat 0 0;
 	right: -249px;
 	top: 0;
 	bottom: 0;
@@ -1491,7 +1491,7 @@ Copyright (c) 2014 Daniel Eden
 	padding-left: 30px;
 	color: #262d35;
 	font: 14px/1.3em GothamProRegular, sans-serif;
-	background: url(../_img/decor_header-descr.svg) no-repeat 0 3px;
+	background: url(../img2/decor_header-descr.svg) no-repeat 0 3px;
 	width: 323px;
 	margin-top: 3px;
 	margin-left: 18px;
@@ -1556,7 +1556,7 @@ Copyright (c) 2014 Daniel Eden
 	display: block;
 	z-index: 5;
 	cursor: pointer;
-	background: url(../_img/ico_list.svg) no-repeat 0 0;
+	background: url(../img2/ico_list.svg) no-repeat 0 0;
 	-webkit-transition: 0.4s;
 	-moz-transition: 0.4s;
 	transition: 0.4s;
@@ -1623,7 +1623,7 @@ Copyright (c) 2014 Daniel Eden
 }
 .header-login{
 	padding-right: 26px;
-	background: url(../_img/arrow_right.svg) no-repeat 100% 50%;
+	background: url(../img2/arrow_right.svg) no-repeat 100% 50%;
 }
 
 .header-cabinet{
@@ -1634,7 +1634,7 @@ Copyright (c) 2014 Daniel Eden
 }
 .header-cabinet p{
 	padding-left: 29px;
-	background: url(../_img/ico_login.svg) no-repeat 0 50%;
+	background: url(../img2/ico_login.svg) no-repeat 0 50%;
 	cursor: pointer;
 }
 
@@ -1655,7 +1655,7 @@ Copyright (c) 2014 Daniel Eden
 
 .header-cabinet ul:before{
     content: "";
-    background: url(../_img/decor_bubble.png) no-repeat 0 0;
+    background: url(../img2/decor_bubble.png) no-repeat 0 0;
     height: 34px;
     width: 34px;
     display: block;
@@ -1679,40 +1679,40 @@ Copyright (c) 2014 Daniel Eden
 	color: #A82F28;
 }
 .header-cabinet li a.link-1{
-	background-image: url(../_img/ico_link-1.svg);
+	background-image: url(../img2/ico_link-1.svg);
 }
 
 .header-cabinet li a.link-1:hover{
-	background-image: url(../_img/ico_link-1-h.svg);
+	background-image: url(../img2/ico_link-1-h.svg);
 }
 .header-cabinet li a.link-2{
-	background-image: url(../_img/ico_link-2.svg);
+	background-image: url(../img2/ico_link-2.svg);
 }
 
 .header-cabinet li a.link-2:hover{
-	background-image: url(../_img/ico_link-2-h.svg);
+	background-image: url(../img2/ico_link-2-h.svg);
 }
 .header-cabinet li a.link-3{
-	background-image: url(../_img/ico_link-3.svg);
+	background-image: url(../img2/ico_link-3.svg);
 }
 
 .header-cabinet li a.link-3:hover{
-	background-image: url(../_img/ico_link-3-h.svg);
+	background-image: url(../img2/ico_link-3-h.svg);
 }
 .header-cabinet li a.link-4{
-	background-image: url(../_img/ico_link-4.svg);
+	background-image: url(../img2/ico_link-4.svg);
 }
 
 .header-cabinet li a.link-4:hover{
-	background-image: url(../_img/ico_link-4-h.svg);
+	background-image: url(../img2/ico_link-4-h.svg);
 }
 
 .header-cabinet li a.link-5{
-	background-image: url(../_img/ico_link-5.svg);
+	background-image: url(../img2/ico_link-5.svg);
 }
 
 .header-cabinet li a.link-5:hover{
-	background-image: url(../_img/ico_link-5-h.svg);
+	background-image: url(../img2/ico_link-5-h.svg);
 }
 .header-cabinet:before{
 	position: absolute;
@@ -1802,7 +1802,7 @@ Copyright (c) 2014 Daniel Eden
 
 .promo-btn-descr:before {
 	content: "";
-	background: url(../_img/decor_bubble.png) no-repeat 0 0;
+	background: url(../img2/decor_bubble.png) no-repeat 0 0;
 	height: 34px;
 	width: 34px;
 	display: block;
@@ -1812,7 +1812,7 @@ Copyright (c) 2014 Daniel Eden
 }
 
 .promo-btn-descr .close {
-	/* background: #a82f28 url(../_img/ico_close-white.svg) no-repeat 50% 50%; */
+	/* background: #a82f28 url(../img2/ico_close-white.svg) no-repeat 50% 50%; */
 	position: absolute;
 	display: block;
 	-webkit-border-radius: 50%;
@@ -1891,7 +1891,7 @@ Copyright (c) 2014 Daniel Eden
 }
 
 .promo-video__btn:before {
-	background: url(../_img/decor_play-btn.png) no-repeat 0 0;
+	background: url(../img2/decor_play-btn.png) no-repeat 0 0;
 	height: 122px;
 	width: 122px;
 	display: block;
@@ -1915,7 +1915,7 @@ Copyright (c) 2014 Daniel Eden
 	width: 70px;
 	content: "";
 	position: absolute;
-	background: #a82f28 url(../_img/ico_play.svg) no-repeat 53% 50%;
+	background: #a82f28 url(../img2/ico_play.svg) no-repeat 53% 50%;
 	z-index: 1;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
@@ -1943,7 +1943,7 @@ Copyright (c) 2014 Daniel Eden
 	bottom: 0;
 	left: 840px;
 	z-index: -1;
-	background: url(../_img/bg_promo.jpg) no-repeat 0 50%;
+	background: url(../img2/bg_promo.jpg) no-repeat 0 50%;
 	-moz-background-size: cover;
 	background-size: cover;
 }
@@ -1955,7 +1955,7 @@ Copyright (c) 2014 Daniel Eden
 	bottom: 0;
 	left: 840px;
 	z-index: -1;
-	background: url(../_img/bg_promo_smb.jpg) no-repeat 0 50%;
+	background: url(../img2/bg_promo_smb.jpg) no-repeat 0 50%;
 	-moz-background-size: cover;
 	background-size: cover;
 }
@@ -1967,7 +1967,7 @@ Copyright (c) 2014 Daniel Eden
 	bottom: 0;
 	left: 840px;
 	z-index: -1;
-	background: url(../_img/bg_promo_ent.jpg) no-repeat 0 50%;
+	background: url(../img2/bg_promo_ent.jpg) no-repeat 0 50%;
 	-moz-background-size: cover;
 	background-size: cover;
 }
@@ -2009,7 +2009,7 @@ Copyright (c) 2014 Daniel Eden
 
 .promo-stats-descr:before {
 	content: "";
-	background: url(../_img/decor_bubble.png) no-repeat 0 0;
+	background: url(../img2/decor_bubble.png) no-repeat 0 0;
 	height: 34px;
 	width: 34px;
 	display: block;
@@ -2144,7 +2144,7 @@ Copyright (c) 2014 Daniel Eden
 .about .container:after {
 	content: "";
 	display: block;
-	background: url(../_img/decor_about.svg) no-repeat 0 0;
+	background: url(../img2/decor_about.svg) no-repeat 0 0;
 	width: 570px;
 	height: 570px;
 	position: absolute;
@@ -2227,7 +2227,7 @@ Copyright (c) 2014 Daniel Eden
 
 .about-title p:before {
 	content: "";
-	background: url(../_img/decor_bubble.png) no-repeat 0 0;
+	background: url(../img2/decor_bubble.png) no-repeat 0 0;
 	height: 34px;
 	width: 34px;
 	display: block;
@@ -2462,7 +2462,7 @@ Copyright (c) 2014 Daniel Eden
 
 .work-bayer__item-descr:before {
 	content: "";
-	background: url(../_img/decor_bubble-2.png) no-repeat 0 0;
+	background: url(../img2/decor_bubble-2.png) no-repeat 0 0;
 	height: 34px;
 	width: 34px;
 	display: block;
@@ -2562,7 +2562,7 @@ Copyright (c) 2014 Daniel Eden
 
 .spheres .container:after {
 	content: "";
-	/* background: url(../_img/decor_spheres.svg) no-repeat 0 0; */
+	/* background: url(../img2/decor_spheres.svg) no-repeat 0 0; */
 	display: block;
 	position: absolute;
 	width: 796px;
@@ -2772,7 +2772,7 @@ Copyright (c) 2014 Daniel Eden
 .solutions .container:before {
 	content: "";
 	display: block;
-	background: url(../_img/decor_about.svg) no-repeat 0 0;
+	background: url(../img2/decor_about.svg) no-repeat 0 0;
 	width: 570px;
 	height: 570px;
 	position: absolute;
@@ -3005,7 +3005,7 @@ Copyright (c) 2014 Daniel Eden
 
 .stats-item__today:after {
 	content: "";
-	background: url(../_img/decor_bubble.png) no-repeat 0 0;
+	background: url(../img2/decor_bubble.png) no-repeat 0 0;
 	height: 34px;
 	width: 34px;
 	display: block;
@@ -3051,7 +3051,7 @@ Copyright (c) 2014 Daniel Eden
 	content: "";
 	display: block;
 	position: absolute;
-	background: url(../_img/decor_team.svg) no-repeat 0 0;
+	background: url(../img2/decor_team.svg) no-repeat 0 0;
 	width: 570px;
 	height: 570px;
 	top: 120px;
@@ -3106,7 +3106,7 @@ Copyright (c) 2014 Daniel Eden
 	display: block;
 	width: 21px;
 	height: 22px;
-	background: url(../_img/ico_social-1.png) no-repeat 0 0;
+	background: url(../img2/ico_social-1.png) no-repeat 0 0;
 	opacity: 0.7;
 	-webkit-transition: 0.4s;
 	-moz-transition: 0.4s;
@@ -3123,7 +3123,7 @@ Copyright (c) 2014 Daniel Eden
 	display: block;
 	width: 21px;
 	height: 22px;
-	background: url(../_img/ico_social-2.png) no-repeat 0 0;
+	background: url(../img2/ico_social-2.png) no-repeat 0 0;
 	opacity: 0.7;
 	-webkit-transition: 0.4s;
 	-moz-transition: 0.4s;
@@ -3475,76 +3475,76 @@ Copyright (c) 2014 Daniel Eden
 }
 
 .brands-dot-1 {
-	background-image: url(../_img/ico_brands-1.svg);
+	background-image: url(../img2/ico_brands-1.svg);
 }
 
 .brands-dot-1:hover,
 .brands-dot-1.active {
-	background-image: url(../_img/ico_brands-1-hover.svg);
+	background-image: url(../img2/ico_brands-1-hover.svg);
 }
 
 .brands-dot-2 {
-	background-image: url(../_img/ico_brands-2.svg);
+	background-image: url(../img2/ico_brands-2.svg);
 }
 
 .brands-dot-2:hover,
 .brands-dot-2.active {
-	background-image: url(../_img/ico_brands-2-hover.svg);
+	background-image: url(../img2/ico_brands-2-hover.svg);
 }
 
 .brands-dot-3 {
-	background-image: url(../_img/ico_brands-3.svg);
+	background-image: url(../img2/ico_brands-3.svg);
 }
 
 .brands-dot-3:hover,
 .brands-dot-3.active {
-	background-image: url(../_img/ico_brands-3-hover.svg);
+	background-image: url(../img2/ico_brands-3-hover.svg);
 }
 
 .brands-dot-4 {
-	background-image: url(../_img/ico_brands-4.svg);
+	background-image: url(../img2/ico_brands-4.svg);
 }
 
 .brands-dot-4:hover,
 .brands-dot-4.active {
-	background-image: url(../_img/ico_brands-4-hover.svg);
+	background-image: url(../img2/ico_brands-4-hover.svg);
 }
 
 .brands-dot-5 {
-	background-image: url(../_img/ico_brands-5.svg);
+	background-image: url(../img2/ico_brands-5.svg);
 }
 
 .brands-dot-5:hover,
 .brands-dot-5.active {
-	background-image: url(../_img/ico_brands-5-hover.svg);
+	background-image: url(../img2/ico_brands-5-hover.svg);
 }
 
 .brands-dot-6 {
-	background-image: url(../_img/ico_brands-6.svg);
+	background-image: url(../img2/ico_brands-6.svg);
 }
 
 .brands-dot-6:hover,
 .brands-dot-6.active {
-	background-image: url(../_img/ico_brands-6-hover.svg);
+	background-image: url(../img2/ico_brands-6-hover.svg);
 }
 
 .brands-dot-7 {
-	background-image: url(../_img/ico_brands-7.svg);
+	background-image: url(../img2/ico_brands-7.svg);
 }
 
 .brands-dot-7:hover,
 .brands-dot-7.active {
-	background-image: url(../_img/ico_brands-7-hover.svg);
+	background-image: url(../img2/ico_brands-7-hover.svg);
 }
 
 .brands-next {
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
-	background-image: url(../_img/arrow_next-red.svg);
+	background-image: url(../img2/arrow_next-red.svg);
 }
 
 .brands-next:hover {
-	background-image: url(../_img/arrow_next-white.svg);
+	background-image: url(../img2/arrow_next-white.svg);
 }
 
 .brands-slider {
@@ -3633,7 +3633,7 @@ Copyright (c) 2014 Daniel Eden
 	display: block;
 	height: 570px;
 	width: 570px;
-	background: url(../_img/decor_about.svg) no-repeat 0 0;
+	background: url(../img2/decor_about.svg) no-repeat 0 0;
 	position: absolute;
 	bottom: -390px;
 	left: -358px;
@@ -3687,7 +3687,7 @@ Copyright (c) 2014 Daniel Eden
 }
 
 .instruments-btn:before {
-	background: url(../_img/decor_play-btn.png) no-repeat 0 0;
+	background: url(../img2/decor_play-btn.png) no-repeat 0 0;
 	height: 122px;
 	width: 122px;
 	display: block;
@@ -3711,7 +3711,7 @@ Copyright (c) 2014 Daniel Eden
 	width: 70px;
 	content: "";
 	position: absolute;
-	background: #a82f28 url(../_img/ico_play.svg) no-repeat 53% 50%;
+	background: #a82f28 url(../img2/ico_play.svg) no-repeat 53% 50%;
 	z-index: 1;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
@@ -3767,15 +3767,15 @@ Copyright (c) 2014 Daniel Eden
 }
 
 .instruments-item-1 {
-	background-image: url(../_img/bg_instrument-1.png);
+	background-image: url(../img2/bg_instrument-1.png);
 }
 
 .instruments-item-2 {
-	background-image: url(../_img/bg_instrument-2.png);
+	background-image: url(../img2/bg_instrument-2.png);
 }
 
 .instruments-item-3 {
-	background-image: url(../_img/bg_instrument-3.png);
+	background-image: url(../img2/bg_instrument-3.png);
 }
 
 .instruments-item--empty {
@@ -3826,7 +3826,7 @@ Copyright (c) 2014 Daniel Eden
 	display: block;
 	height: 570px;
 	width: 570px;
-	background: url(../_img/decor_about.svg) no-repeat 0 0;
+	background: url(../img2/decor_about.svg) no-repeat 0 0;
 	position: absolute;
 	bottom: -390px;
 	left: -358px;
@@ -3894,7 +3894,7 @@ Copyright (c) 2014 Daniel Eden
 }
 
 .steps-main-1 {
-	background-image: url(../_img/bg_step-1.png);
+	background-image: url(../img2/bg_step-1.png);
 	margin-left: 480px;
 	background-position: 97% 0;
 }
@@ -3904,7 +3904,7 @@ Copyright (c) 2014 Daniel Eden
 }
 
 .steps-main-2 {
-	background-image: url(../_img/bg_step-2.png);
+	background-image: url(../img2/bg_step-2.png);
 	margin-top: 52px;
 	background-position: 100% 0;
 }
@@ -4135,7 +4135,7 @@ Copyright (c) 2014 Daniel Eden
 }
 
 .click-image-2__btn:before {
-	background: url(../_img/decor_play-btn.png) no-repeat 0 0;
+	background: url(../img2/decor_play-btn.png) no-repeat 0 0;
 	height: 122px;
 	width: 122px;
 	display: block;
@@ -4159,7 +4159,7 @@ Copyright (c) 2014 Daniel Eden
 	width: 70px;
 	content: "";
 	position: absolute;
-	background: #a82f28 url(../_img/ico_play.svg) no-repeat 53% 50%;
+	background: #a82f28 url(../img2/ico_play.svg) no-repeat 53% 50%;
 	z-index: 1;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
@@ -4375,39 +4375,39 @@ Copyright (c) 2014 Daniel Eden
 }
 
 .more-item-1 .more-item__info {
-	background-image: url(../_img/bg_more-1.png);
+	background-image: url(../img2/bg_more-1.png);
 }
 
 .more-item-2 .more-item__info {
-	background-image: url(../_img/bg_more-2.png);
+	background-image: url(../img2/bg_more-2.png);
 }
 
 .more-item-3 .more-item__info {
-	background-image: url(../_img/bg_more-3.png);
+	background-image: url(../img2/bg_more-3.png);
 }
 
 .more-item-4 .more-item__info {
-	background-image: url(../_img/bg_more-4.png);
+	background-image: url(../img2/bg_more-4.png);
 }
 
 .more-item-5 .more-item__info {
-	background-image: url(../_img/bg_more-5.png);
+	background-image: url(../img2/bg_more-5.png);
 }
 
 .more-item-6 .more-item__info {
-	background-image: url(../_img/bg_more-6.png);
+	background-image: url(../img2/bg_more-6.png);
 }
 
 .more-item-7 .more-item__info {
-	background-image: url(../_img/bg_more-7.png);
+	background-image: url(../img2/bg_more-7.png);
 }
 
 .more-item-8 .more-item__info {
-	background-image: url(../_img/bg_more-8.png);
+	background-image: url(../img2/bg_more-8.png);
 }
 
 .more-item-9 .more-item__info {
-	background-image: url(../_img/bg_more-9.png);
+	background-image: url(../img2/bg_more-9.png);
 }
 
 .more-item__title {
@@ -4453,7 +4453,7 @@ Copyright (c) 2014 Daniel Eden
 .reviews .container:after {
 	content: "";
 	display: block;
-	background: url(../_img/decor_reviews.svg) no-repeat 0 0;
+	background: url(../img2/decor_reviews.svg) no-repeat 0 0;
 	width: 1324px;
 	height: 595px;
 	position: absolute;
@@ -4496,7 +4496,7 @@ Copyright (c) 2014 Daniel Eden
 	align-items: center;
 	position: absolute;
 	top: -134px;
-	background-image: url(../_img/arrow_next-white-small.svg);
+	background-image: url(../img2/arrow_next-white-small.svg);
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	width: 100px;
@@ -4527,7 +4527,7 @@ Copyright (c) 2014 Daniel Eden
 	align-items: center;
 	position: absolute;
 	top: -134px;
-	background-image: url(../_img/arrow_next-white-small.svg);
+	background-image: url(../img2/arrow_next-white-small.svg);
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	width: 100px;
@@ -4616,7 +4616,7 @@ Copyright (c) 2014 Daniel Eden
 }
 
 .reviews-slide__btn:before {
-	background: url(../_img/decor_play-btn.png) no-repeat 0 0;
+	background: url(../img2/decor_play-btn.png) no-repeat 0 0;
 	height: 122px;
 	width: 122px;
 	display: block;
@@ -4640,7 +4640,7 @@ Copyright (c) 2014 Daniel Eden
 	width: 70px;
 	content: "";
 	position: absolute;
-	background: #a82f28 url(../_img/ico_play.svg) no-repeat 53% 50%;
+	background: #a82f28 url(../img2/ico_play.svg) no-repeat 53% 50%;
 	z-index: 1;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
@@ -4847,7 +4847,7 @@ Copyright (c) 2014 Daniel Eden
 	color: #262d35;
 	font: 16px/31px GothamProRegular, sans-serif;
 	padding-left: 50px;
-	background: url(../_img/ico_radio.svg) no-repeat 0 50%;
+	background: url(../img2/ico_radio.svg) no-repeat 0 50%;
 }
 
 .calc-item__radio b {
@@ -4856,7 +4856,7 @@ Copyright (c) 2014 Daniel Eden
 }
 
 .calc-item__radio.active {
-	background: url(../_img/ico_radio-check.svg) no-repeat 0 50%;
+	background: url(../img2/ico_radio-check.svg) no-repeat 0 50%;
 }
 
 .calc-item__radio.active+.calc-item__descr {
@@ -5445,7 +5445,7 @@ a.ui-button:focus {
 	display: block;
 	width: 189px;
 	height: 799px;
-	background: url(../_img/decor_faq.png) no-repeat 0 0;
+	background: url(../img2/decor_faq.png) no-repeat 0 0;
 	position: absolute;
 	z-index: -1;
 	bottom: -300px;
@@ -5457,7 +5457,7 @@ a.ui-button:focus {
 	display: block;
 	width: 570px;
 	height: 570px;
-	background: url(../_img/decor_about.svg) no-repeat 0 0;
+	background: url(../img2/decor_about.svg) no-repeat 0 0;
 	position: absolute;
 	z-index: -1;
 	bottom: -100px;
@@ -5594,30 +5594,30 @@ a.ui-button:focus {
 }
 
 .ease-dot-1 {
-	background-image: url(../_img/ico_ease-1.png);
+	background-image: url(../img2/ico_ease-1.png);
 }
 
 .ease-dot-1:hover,
 .ease-dot-1.active {
-	background-image: url(../_img/ico_ease-1-hover.png);
+	background-image: url(../img2/ico_ease-1-hover.png);
 }
 
 .ease-dot-2 {
-	background-image: url(../_img/ico_ease-2.png);
+	background-image: url(../img2/ico_ease-2.png);
 }
 
 .ease-dot-2:hover,
 .ease-dot-2.active {
-	background-image: url(../_img/ico_ease-2-hover.png);
+	background-image: url(../img2/ico_ease-2-hover.png);
 }
 
 .ease-dot-3 {
-	background-image: url(../_img/ico_ease-3.png);
+	background-image: url(../img2/ico_ease-3.png);
 }
 
 .ease-dot-3:hover,
 .ease-dot-3.active {
-	background-image: url(../_img/ico_ease-3-hover.png);
+	background-image: url(../img2/ico_ease-3-hover.png);
 }
 
 .ease-tabs {
@@ -5641,15 +5641,15 @@ a.ui-button:focus {
 }
 
 .ease-tab-1 {
-	background: #fff url(../_img/bg_tab-1.png) no-repeat 100% 50%;
+	background: #fff url(../img2/bg_tab-1.png) no-repeat 100% 50%;
 }
 
 .ease-tab-2 {
-	background: #fff url(../_img/bg_tab-2.png) no-repeat 100% 50%;
+	background: #fff url(../img2/bg_tab-2.png) no-repeat 100% 50%;
 }
 
 .ease-tab-3 {
-	background: #fff url(../_img/bg_tab-3.png) no-repeat 100% 50%;
+	background: #fff url(../img2/bg_tab-3.png) no-repeat 100% 50%;
 }
 
 .ease-tab.active {
@@ -5789,7 +5789,7 @@ a.ui-button:focus {
 	padding-left: 30px;
 	color: #fff;
 	font: 14px/1.3em GothamProRegular, sans-serif;
-	background: url(../_img/decor_header-descr.svg) no-repeat 0 3px;
+	background: url(../img2/decor_header-descr.svg) no-repeat 0 3px;
 	width: 272px;
 	margin-top: 42px;
 	margin-left: 18px;
@@ -5847,7 +5847,7 @@ a.ui-button:focus {
 
 .footer-time:after {
 	content: "";
-	background: url(../_img/decor_bubble.png) no-repeat 0 0;
+	background: url(../img2/decor_bubble.png) no-repeat 0 0;
 	height: 34px;
 	width: 34px;
 	display: block;
@@ -5947,7 +5947,7 @@ a.ui-button:focus {
 	top: 0;
 	right: 0;
 	bottom: 0;
-	background: url(../_img/ico_send.png) no-repeat 50% 50%;
+	background: url(../img2/ico_send.png) no-repeat 50% 50%;
 	display: block;
 }
 
@@ -6010,7 +6010,7 @@ a.ui-button:focus {
 	-webkit-transition: 0.8s;
 	-moz-transition: 0.8s;
 	transition: 0.8s;
-	background: #a82f28 url(../_img/ico_top.svg) no-repeat 50% 50%;
+	background: #a82f28 url(../img2/ico_top.svg) no-repeat 50% 50%;
 	height: 77px;
 	width: 77px;
 	-webkit-border-radius: 50%;
@@ -6186,11 +6186,11 @@ a.ui-button:focus {
 	display: block;
 	color: #262d35;
 	font: 16px/30px GothamProRegular, sans-serif;
-	background: url(../_img/ico_no-check.png) no-repeat 0 0;
+	background: url(../img2/ico_no-check.png) no-repeat 0 0;
 }
 
 .modal-messenger.active {
-	background: url(../_img/ico_check.png) no-repeat 0 0;
+	background: url(../img2/ico_check.png) no-repeat 0 0;
 }
 
 .modal-form-2 {
@@ -12516,10 +12516,10 @@ a.ui-button:focus {
 		color: #fff;
 	}
 	.header-login {
-		background-image: url(../_img/arrow_right-black.svg);
+		background-image: url(../img2/arrow_right-black.svg);
 	} 
 	.header-cabinet p{
-		background-image: url(../_img/ico_login-black.svg);
+		background-image: url(../img2/ico_login-black.svg);
 	}
 	.header-descr {
 		display: none;
