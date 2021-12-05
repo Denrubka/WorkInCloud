@@ -474,8 +474,8 @@ $('document').ready(function(){
 
 
 });
-const cookie = document.querySelector('.cookie-wrapper');
-const cookieBtn = cookie.querySelector('.cookie-btn');
+// const cookie = document.querySelector('.cookie-wrapper');
+// const cookieBtn = cookie.querySelector('.cookie-btn');
 const infosTabsBtns = document.querySelectorAll('.infos-tab');
 const infosTabsBlocks = document.querySelectorAll('.infos-tabs-block');
 const cookieOpen = () => {
@@ -505,7 +505,7 @@ const infosTabs = () => {
 	});
 };
 infosTabs();
-cookieTrue();
+// cookieTrue();
 
 document.addEventListener('DOMContentLoaded', () => {
 
