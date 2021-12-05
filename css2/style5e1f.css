@@ -3308,6 +3308,7 @@ Copyright (c) 2014 Daniel Eden
 	font: 36px/1.3em GothamProBold, sans-serif;
 	max-width: 650px;
 	padding-left: 2px;
+	margin-bottom: 30px;
 }
 
 .infos-content {
@@ -3320,11 +3321,6 @@ Copyright (c) 2014 Daniel Eden
 	display: -ms-flexbox;
 	display: flex;
 	width: 100%;
-	-webkit-box-pack: justify;
-	-webkit-justify-content: space-between;
-	-moz-box-pack: justify;
-	-ms-flex-pack: justify;
-	justify-content: space-between;
 }
 
 .infos-content b {
@@ -12341,7 +12337,7 @@ a.ui-button:focus {
 .infos-tabs {
 	display: flex;
 	width: auto;
-	margin-top: 30px;
+	margin: 30px 0 40px 0;
 }
 .infos-tab {
 	background: none;
@@ -12363,9 +12359,19 @@ a.ui-button:focus {
 .infos-tabs-block {
 	display: none;
 }
-.infos-tabs-block.active {
-	display: block;
+.infos-tab-block-left {
+	max-width: 500px;
+	max-height: 355px;
+	overflow: hidden;
+	margin-right: 50px;
 }
+.infos-tab-block-right {
+	max-width: 870px;
+}
+.infos-tabs-block.active {
+	display: flex;
+}
+
 .infos-tab-block__title {
 	font-family: GothamProBold, sans-serif;
 	color: #a82f28;
@@ -12380,6 +12386,18 @@ a.ui-button:focus {
 .infos-tab-block__list {
 	list-style: disc;
 	padding-left: 20px;
+}
+.infos-about {
+	color: rgba(38, 45, 53, 0.8);
+    width: 100%;
+}
+.infos-about p {
+	font-size: 16px;
+	font-family: GothamProRegular;
+	font-weight: 700;
+}
+.infos-about p:not(:last-child) {
+	margin-bottom: 14px;
 }
 
 @media screen and (max-width: 785px) {
@@ -13362,6 +13380,13 @@ a.ui-button:focus {
 	}
 	.infos-tab {
 		padding: 13px 19px;
+	}
+	.infos-tabs-block {
+		flex-direction: column-reverse;
+	}
+	.infos-tab-block-left {
+		width: 100%;
+		margin: 15px auto;
 	}
 	
 }
